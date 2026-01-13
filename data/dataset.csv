@@ -1,0 +1,11 @@
+id,data,categoria,subcategoria,produto,valor,quantidade,canal,regiao,cliente_tipo,status
+1,2025-01-01,vendas,eletronicos,Produto_A,1200.00,1,ecommerce,sudeste,novo,concluido
+2,2025-01-02,vendas,eletronicos,Produto_B,850.00,1,loja_fisica,nordeste,recorrente,concluido
+3,2025-01-03,vendas,moveis,Produto_C,980.00,2,ecommerce,sul,novo,concluido
+4,2025-01-04,operacional,logistica,Servico_Entrega,300.00,1,interno,sudeste,interno,processado
+5,2025-01-05,vendas,vestuario,Produto_D,430.00,3,loja_fisica,nordeste,novo,concluido
+6,2025-01-06,operacional,marketing,Campanha_Digital,500.00,1,interno,sudeste,interno,processado
+7,2025-01-07,vendas,eletronicos,Produto_B,760.00,1,ecommerce,sudeste,recorrente,concluido
+8,2025-01-08,vendas,vestuario,Produto_D,620.00,2,loja_fisica,sul,recorrente,concluido
+9,2025-01-09,operacional,infraestrutura,Manutencao_Servidor,900.00,1,interno,sudeste,interno,processado
+10,2025-01-10,vendas,moveis,Produto_C,1100.00,1,ecommerce,nordeste,novo,concluido
