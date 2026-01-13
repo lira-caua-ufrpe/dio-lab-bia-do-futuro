@@ -1,0 +1,13 @@
+{
+  "id": "Identificador único do registro",
+  "data": "Data em que o evento ocorreu",
+  "categoria": "Classificação principal do registro (ex: vendas, operacional)",
+  "subcategoria": "Detalhamento da categoria principal",
+  "produto": "Nome do produto ou serviço associado ao registro",
+  "valor": "Valor monetário do registro",
+  "quantidade": "Quantidade de itens envolvidos na operação",
+  "canal": "Canal onde a operação ocorreu (ecommerce, loja_fisica ou interno)",
+  "regiao": "Região geográfica associada ao registro",
+  "cliente_tipo": "Classificação do cliente (novo, recorrente ou interno)",
+  "status": "Situação atual do registro (concluido ou processado)"
+}
