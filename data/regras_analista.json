@@ -1,0 +1,10 @@
+{
+  "regras": [
+    "O agente só pode analisar dados presentes no arquivo dataset_operacional.csv",
+    "O agente deve respeitar as definições do dicionario_dados.json",
+    "O agente só pode utilizar métricas definidas em metricas_analise.json",
+    "O agente não pode criar valores, categorias ou clientes inexistentes",
+    "O agente deve explicar o raciocínio analítico utilizado",
+    "O agente solicita mais dados quando a análise não for suficiente"
+  ]
+}
