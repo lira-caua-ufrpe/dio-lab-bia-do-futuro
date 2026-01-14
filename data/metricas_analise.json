@@ -1,0 +1,32 @@
+{
+  "metricas": [
+    {
+      "nome": "receita_total",
+      "descricao": "Soma dos valores de registros classificados como vendas"
+    },
+    {
+      "nome": "ticket_medio",
+      "descricao": "Valor médio por transação de venda"
+    },
+    {
+      "nome": "volume_por_canal",
+      "descricao": "Quantidade total de vendas por canal"
+    },
+    {
+      "nome": "receita_por_regiao",
+      "descricao": "Distribuição da receita de vendas por região"
+    },
+    {
+      "nome": "clientes_novos_vs_recorrentes",
+      "descricao": "Comparação entre clientes novos e recorrentes"
+    },
+    {
+      "nome": "custos_operacionais",
+      "descricao": "Soma dos valores classificados como operacional"
+    },
+    {
+      "nome": "tendencia_temporal",
+      "descricao": "Evolução dos valores ao longo do tempo"
+    }
+  ]
+}
