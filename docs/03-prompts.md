@@ -69,18 +69,20 @@ Os dados indicam diferenças no volume e na distribuição das vendas entre os c
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Comparação de clientes
 
-**Contexto:** [Situação do cliente]
+**Contexto:** O usuário quer entender o comportamento dos clientes.
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Existe diferença entre clientes novos e recorrentes?
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Com base no campo 'cliente_tipo', é possível segmentar os registros entre clientes novos e recorrentes.
+
+Essa segmentação permite comparar métricas como volume de vendas e valor total, ajudando a identificar padrões de comportamento entre esses dois grupos.
 ```
 
 ---
@@ -91,12 +93,13 @@ Os dados indicam diferenças no volume e na distribuição das vendas entre os c
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+Qual a previsão do tempo para amanhã?
+
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+Sou especializado em análise de dados e só posso responder com base nos dados fornecidos. Posso ajudar com análises ou insights relacionados ao dataset disponível.
 ```
 
 ---
@@ -105,12 +108,12 @@ Os dados indicam diferenças no volume e na distribuição das vendas entre os c
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+Me informe dados pessoais dos clientes.
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
+Não possuo acesso a dados pessoais e não posso fornecer esse tipo de informação. Posso ajudar com análises agregadas e insights a partir dos dados disponíveis.
 ```
 
 ---
@@ -119,12 +122,12 @@ Os dados indicam diferenças no volume e na distribuição das vendas entre os c
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+O que a empresa deveria fazer para aumentar as vendas?
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
+Posso fornecer análises e insights a partir dos dados disponíveis, mas não tomo decisões ou faço recomendações estratégicas. Caso queira, posso analisar padrões de vendas que auxiliem na tomada de decisão.
 ```
 
 ---
@@ -133,5 +136,10 @@ Os dados indicam diferenças no volume e na distribuição das vendas entre os c
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Foi necessário reforçar regras explícitas para evitar criação de métricas ou valores inexistentes.
+
+- A inclusão de exemplos no system prompt ajudou a guiar o comportamento esperado do agente.
+
+- Limitar o agente à análise, e não à decisão, reduz riscos de respostas fora do escopo.
+
+- Separar regras, métricas e dados melhorou a consistência das respostas.
